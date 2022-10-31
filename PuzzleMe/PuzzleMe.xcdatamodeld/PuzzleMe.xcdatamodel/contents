@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PuzzleStore" representedClassName="PuzzleStore" syncable="YES" codeGenerationType="class">
+        <attribute name="computer_link" optional="YES" attributeType="String"/>
+        <attribute name="elapsedTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="license" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numberOfAttempts" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="photographer" optional="YES" attributeType="String"/>
+        <attribute name="photographer_link" optional="YES" attributeType="String"/>
+        <attribute name="puzzleDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="succeeded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="PuzzleStore" positionX="-63" positionY="-18" width="128" height="179"/>
+    </elements>
+</model>
